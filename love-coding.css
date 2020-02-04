@@ -1,0 +1,41 @@
+body {
+background-color: darkslategray;
+}
+
+
+ h1 {
+    color: lemonchiffon;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+  ul li {
+    
+    padding: 100px ;
+    display: inline-block;
+    text-decoration: none;
+    
+  }
+
+  li a {
+      color: floralwhite;
+      text-decoration: none;
+  }
+
+  article {
+      text-align: center;
+  }
+
+  img {
+width: 350px;
+height: 300px;
+
+  }
+
+  footer p {
+      background-color: black;
+text-align: center;
+    color: darkgray;
+    padding: 100;
+
+  }
