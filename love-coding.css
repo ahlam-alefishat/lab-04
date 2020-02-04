@@ -17,13 +17,15 @@ background-color: darkslategray;
     
   }
 
-  li a {
+  li a { 
+      font-family: sans-serif;
       color: floralwhite;
       text-decoration: none;
   }
 
   article {
       text-align: center;
+      
   }
 
   img {
