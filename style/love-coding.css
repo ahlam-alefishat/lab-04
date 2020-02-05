@@ -1,17 +1,29 @@
 body {
-background-color: darkslategray;
+  background-color: darkcyan;
+  background: url("https://papers.co/wallpaper/papers.co-no02-macbook-bokeh-coding-apple-36-3840x2400-4k-wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+   text-align: left;
 }
-
 
  h1 {
     color: lemonchiffon;
     text-align: center;
     font-family: Arial, Verdana, sans-serif;
 }
+ h3 {
+  text-align: left;
+  color: beige;
+  font-family: Arial, Verdana, sans-serif;
+ }
 
   ul li {
     
-    padding: 100px ;
+    padding: 50px ;
     display: inline-block;
     text-decoration: none;
     
@@ -24,7 +36,7 @@ background-color: darkslategray;
   }
 
   article {
-      text-align: center;
+      
       
   }
 
@@ -35,13 +47,21 @@ height: 300px;
   }
 
   footer p {
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.062);
 text-align: center;
     color: darkgray;
-    padding: 100;
+    padding: 25px;
+    margin-top: 280px;
+    
+    
 
   }
 
   h2 {
     color: lemonchiffon;
+  }
+
+  script {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bcbdc0;
   }

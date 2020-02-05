@@ -1,31 +1,35 @@
+
+
+
+  function myfunction() {
 var Name= prompt ('What is your name?');
-document.write ('<h1> Hello '+Name+' </h1>');
+console.log(Name);
+document.write ('<h3> Hello '+Name+' </h3>');
+return Name;}
 
+myfunction();
 
-
-
-var  code = prompt (' Type yes if you like coding , and no if you dont');
+var  code = prompt ('Do you love coding? y/n');
 console.log(code);
 
-var greeting; 
-if (code= "yes" ){
-    greeting='Your fav language :';
+var msg; 
+if (code =="y" ){
+    msg='Welcome to the club ' ;
     
-document.write ('<h2> '+greeting+' </h2>')
+document.write ('<h2> ' +msg+ ' </h2>')
 
-var lan= prompt ('What is your fav language?');
-document.write ('<h1>  '+lan+' </h1>');
-}
-
-
-else {
-    greeting = 'something went wrong';
-}
-
-
-
+var lan= prompt ('What course you are intersted in? ');
+document.write ('<h3>  '+lan+' </h3>');
 var age= prompt ('How old are you?');
-document.write ('<h1>  '+age+' </h1>');
+document.write ('<h3>  '+age+' </h3>');
+}
 
 
-
+else if (code =="n" ){
+    msg = 'Join us and you will change your mind!';
+    document.write ('<h2> ' +msg+ ' </h2>')
+}
+else{
+    msg = 'something went wrong';
+    document.write ('<h2> ' +msg+ ' </h2>')
+}
