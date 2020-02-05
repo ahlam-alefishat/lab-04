@@ -13,12 +13,12 @@ body {
  h1 {
     color: lemonchiffon;
     text-align: center;
-    font-family: Arial, Verdana, sans-serif;
+    
 }
  h3 {
   text-align: left;
-  color: beige;
-  font-family: Arial, Verdana, sans-serif;
+  color:whitesmoke;
+  
  }
 
   ul li {
@@ -59,6 +59,7 @@ text-align: center;
 
   h2 {
     color: lemonchiffon;
+    text-align: justify ;
   }
 
   script {
